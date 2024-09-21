@@ -1,0 +1,51 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "vim_mode": true,
+  "ui_font_size": 18,
+  "buffer_font_size": 19,
+  "buffer_font_family": "Hack Nerd Font",
+  "relative_line_numbers": true,
+  "buffer_font_weight": 500,
+  "tab_bar": {
+    "show": true
+  },
+  "vim": {
+    "toggle_relative_line_numbers": true,
+    "use_system_clipboard": true,
+    "custom_digraphs": {
+      "fz": "🧟‍♀️"
+    }
+  },
+  "code_actions_on_format": {
+    "source.fixAll.eslint": true,
+    "source.removeUnusedImports": true
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "cursor_blink": false,
+  "cursor_shape": "block",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Gruvbox Dark Hard"
+  },
+  "inlay_hints": {
+    "enabled": false,
+    "show_other_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true
+  },
+  "features": {
+    "inline_completion_provider": "supermaven"
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "use_autoclose": true
+}

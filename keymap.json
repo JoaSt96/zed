@@ -1,0 +1,48 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // "shift-k": "editor::Hover",
+      // "gd": "editor::GoToDefinition",
+      // "shift-tab": "editor::Tab",
+      // "tab": "editor::TabPrev",
+      // "shift-left": "pane::ActivatePrevItem",
+      // "shift-right": "pane::ActivateNextItem",
+      // "shift-c": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && !menu",
+    "bindings": {
+      "space w": "workspace::Save",
+      "space e": "workspace::ToggleLeftDock",
+      "space s": "pane::SplitVertical",
+      "space c": "pane::CloseActiveItem",
+      "space f": "file_finder::Toggle",
+      "space b b": "pane::ActivatePrevItem",
+      "space b n": "pane::ActivateNextItem",
+      "space t": "outline::Toggle",
+      "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
+      "space g": "editor::Rename",
+      "space .": "editor::ToggleCodeActions",
+      "space x": "editor::GoToDiagnostic",
+      "space ,": "outline::Toggle",
+      "space r": "editor::FindAllReferences",
+      "g D": "editor::GoToDefinitionSplit"
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"]
+    }
+  }
+]
