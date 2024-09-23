@@ -28,14 +28,19 @@
       "space b b": "pane::ActivatePrevItem",
       "space b n": "pane::ActivateNextItem",
       "space t": "outline::Toggle",
+      "space h": "search::ToggleReplace",
       "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"],
       "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
       "space g": "editor::Rename",
+      "space G": "editor::ExpandAllHunkDiffs",
       "space .": "editor::ToggleCodeActions",
       "space x": "editor::GoToDiagnostic",
       "space ,": "outline::Toggle",
       "space r": "editor::FindAllReferences",
-      "g D": "editor::GoToDefinitionSplit"
+      "g D": "editor::GoToImplementation",
+      "g T": "editor::GoToTypeDefinition",
+      "g d": "editor::GoToDefinition",
+      "g x": "editor::GoToDiagnostic"
     }
   },
   {
