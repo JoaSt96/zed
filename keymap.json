@@ -47,7 +47,8 @@
     "context": "Dock",
     "bindings": {
       "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
-      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"]
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "space  c": "project_panel::CollapseAllEntries"
     }
   }
 ]
