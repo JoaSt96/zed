@@ -33,6 +33,7 @@
       "ctrl-h": ["workspace::ActivatePaneInDirection", "Left"],
       "space g": "editor::Rename",
       "space G": "editor::ExpandAllHunkDiffs",
+      "space v": "pane::JoinAll",
       "space .": "editor::ToggleCodeActions",
       "space x": "editor::GoToDiagnostic",
       "space ,": "outline::Toggle",
